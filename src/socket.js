@@ -1,3 +1,3 @@
 import { io } from "socket.io-client";
-const URL = process.env.NODE_ENV === 'production' ? 'http://localhost:3000' : 'http://localhost:5000'
+const URL = process.env.NODE_ENV === 'production' ? 'https://sketch-book-server-1ff4.onrender.com' : 'http://localhost:5000'
 export const socket = io(URL);
